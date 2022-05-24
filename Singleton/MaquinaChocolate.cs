@@ -56,6 +56,8 @@ namespace Singleton
                 this.Quantidade -= 1;
                 Console.WriteLine("Esvaziando");
             }
+            else
+                Console.WriteLine("O forno já está vazio"); 
 
         }
 

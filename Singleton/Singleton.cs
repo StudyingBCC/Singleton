@@ -14,7 +14,6 @@ namespace Singleton
 
         }
 
-
         public static Singleton retornaInstancia()
         {
             if(instancia == null)
@@ -23,5 +22,8 @@ namespace Singleton
             }
             return instancia; 
         }
+
+
+        //A ideia do Singleton é poder criar vários objetos que recebem os mesmos dados, porem são unicos; 
     }
 }
